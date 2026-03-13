@@ -39,7 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
 
-            /// HEADER
             Container(
               padding: const EdgeInsets.symmetric(vertical: 16),
               child: Row(
@@ -80,7 +79,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
 
-            /// CARD TOEFL
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 35),
               decoration: const BoxDecoration(
@@ -145,7 +143,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
 
-            /// TITLE
             const Text(
               'Riwayat Tes',
               style: TextStyle(
@@ -160,4 +157,5 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
+
 }
